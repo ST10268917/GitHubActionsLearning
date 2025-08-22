@@ -31,5 +31,5 @@ jobs:
     - run: npm test
     - run: echo "Build Complete! Used version ${{ matrix.node-version }}"
     - run: |
-      echo "Secret: ${{ secrets.API_KEY_AWS }}"
-      echo "Variable: ${{ vars.PERSON }}"
+        echo "Secret: ${{ secrets.API_KEY_AWS }}"
+        echo "Variable: ${{ vars.PERSON }}"
